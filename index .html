@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Thiết Kế Đồ Họa & Đa Phương Tiện - Thầy Trần Minh Khôi</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff8533;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 80px 20px;
+            background-color: #fff;
+        }
+
+        .feature {
+            text-align: center;
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .feature h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            color: #666;
+        }
+
+        .instructor {
+            background-color: #f4f4f4;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .instructor img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .instructor h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .instructor h3 {
+            color: #ff6600;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .instructor p {
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+
+            .feature {
+                width: 90%;
+                margin: 10px auto;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Về chúng tôi</a></li>
+                <li><a href="#courses">Khóa học</a></li>
+                <li><a href="#instructor">Giảng viên</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Khóa Học Thiết Kế Đồ Họa & Đa Phương Tiện</h1>
+        <h2>Khám phá tiềm năng sáng tạo của bạn với các khóa học chuyên sâu cùng Thầy Trần Minh Khôi</h2>
+        <a href="#register" class="cta-button">Đăng ký ngay</a>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Chương trình đào tạo chuẩn quốc tế</h2>
+            <p>Học với giáo trình được công nhận toàn cầu, đảm bảo chất lượng đào tạo hàng đầu</p>
+        </div>
+        <div class="feature">
+            <h2>Giảng viên chuyên nghiệp</h2>
+            <p>Đội ngũ giảng viên có nhiều năm kinh nghiệm trong ngành, tận tâm hướng dẫn</p>
+        </div>
+        <div class="feature">
+            <h2>Cơ hội việc làm rộng mở</h2>
+            <p>Kết nối với các doanh nghiệp hàng đầu trong lĩnh vực, đảm bảo cơ hội nghề nghiệp</p>
+        </div>
+    </section>
+
+    <section id="instructor" class="instructor">
+    <h2>Giảng viên chính</h2>
+    <img src="https://i.pinimg.com/736x/b7/96/54/b79654358ab14a469378241ae71e4ffb.jpg" alt="Giảng viên">
+    <h3>Thầy Trần Minh Khôi</h3>
+    <p>Thầy Trần Minh Khôi là một chuyên gia hàng đầu trong lĩnh vực thiết kế đồ họa và đa phương tiện. 
+       Với hơn 15 năm kinh nghiệm, thầy đã đào tạo hàng nghìn học viên thành công và có nhiều đóng góp quan trọng cho ngành công nghiệp sáng tạo.</p>
+</section>
